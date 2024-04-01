@@ -1,6 +1,5 @@
 # Summary
 
-
 [Welcome](./welcome.md)
 [Introduction](./introduction.md)
-- [Chapter 1](./chapter_1.md)
+- [Sale without an appointment](./how-to/sale-without-an-appointment.md)
