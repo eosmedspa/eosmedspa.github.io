@@ -2,17 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Support Website for EOS Medical, LLC("EOS Medical Spa")</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <title>Support Website for EOS Medical, LLC ("EOS Medical Spa")</title>
 </head>
 <body>
-  <h1>Welcome to the EOS Support Website</h1>
-  <p>For employee resources, click the button below:</p>
+  <h1>EOS Support Website</h1>
   
   <button onclick="employeeRedirect()">Go to Employee Handbook</button>
 
+  </br></br>
+  
+  <button onclick="ticketRedirect()">Submit a Support Ticket (v1.0.0)</button>
+
+  </br></br>
+
+  <button onclick="bookmarksRedirect()">View EOS Bookmarks Menu</button>
+
   <script>
     function employeeRedirect() {
-      window.location.href = 'https://eosmedspa.github.io/guidebook';
+      window.location.href = 'https://eosmedspa.github.io/handbook';
+    }
+    function ticketRedirect() {
+      window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfb4Wg247hoJ5gKBanIQSb_7ByuMYZ4KoTX7xZl5mGEitHa1w/viewform'
+    }
+    function bookmarksRedirect() {
+      window.location.href = 'https://help.eosmedspa.com/bookmarks.html'
     }
   </script>
 </body>
