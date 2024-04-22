@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="welcome.html">Welcome</a></li><li class="chapter-item expanded affix "><a href="resources/internet-bookmarks.html">Internet Bookmarks</a></li><li class="chapter-item expanded affix "><a href="how-to/create-a-product.html">How to: Create a product</a></li><li class="chapter-item expanded affix "><a href="how-to/merge-client-profiles.html">How to: Merge client profiles</a></li><li class="chapter-item expanded affix "><a href="how-to/print-lab-results.html">How to: Print lab results</a></li><li class="chapter-item expanded affix "><a href="how-to/sale-without-an-appointment.html">How to: Sale without an appointment</a></li><li class="chapter-item expanded affix "><a href="coming-soon.html">--- Coming Soon ---</a></li><li class="chapter-item expanded affix "><a href="how-to/block-a-schedule.html">How to: Block a schedule</a></li><li class="chapter-item expanded affix "><a href="how-to/create-a-service.html">How to: Create a service</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="welcome.html">Welcome</a></li><li class="chapter-item expanded affix "><a href="resources/internet-bookmarks.html">Internet Bookmarks</a></li><li class="chapter-item expanded affix "><a href="how-to/create-a-product.html">How to: Create a product</a></li><li class="chapter-item expanded affix "><a href="how-to/create-membership-service.html">How to: Create membership service</a></li><li class="chapter-item expanded affix "><a href="how-to/merge-client-profiles.html">How to: Merge client profiles</a></li><li class="chapter-item expanded affix "><a href="how-to/print-lab-results.html">How to: Print lab results</a></li><li class="chapter-item expanded affix "><a href="how-to/sale-without-an-appointment.html">How to: Sale without an appointment</a></li><li class="chapter-item expanded affix "><a href="coming-soon.html">--- Coming Soon ---</a></li><li class="chapter-item expanded affix "><a href="how-to/block-a-schedule.html">How to: Block a schedule</a></li><li class="chapter-item expanded affix "><a href="how-to/create-a-service.html">How to: Create a service</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -189,6 +189,73 @@
 <li>(Optional) Select a supplier</li>
 <li>(Optional) Select a category</li>
 <li>(Optional) Enter a brand</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h3 id="to-create-the-service"><a class="header" href="#to-create-the-service">To create the service</a></h3>
+<ol>
+<li>Gear icon</li>
+<li>Services tab</li>
+<li>New service</li>
+<li>Make the service name "Treatment for Tier # Member"
+<ul>
+<li>Replace "Treatment" with the name of the treatment</li>
+<li>Replace "#" with the corresponding tier number</li>
+</ul>
+</li>
+<li>For category, select "Membership Services (Tier #)"
+<ul>
+<li>Replace "#" with the actual tier number</li>
+</ul>
+</li>
+<li>Set the default price equal to one month of membership for the tier (e.g. $199.00)</li>
+<li>Set the duration to the appropriate amount of time for the treatment</li>
+</ol>
+<h3 id="to-set-the-commission-amount"><a class="header" href="#to-set-the-commission-amount">To set the commission amount</a></h3>
+<ol start="8">
+<li>Go to the Manage tab</li>
+<li>Services tab</li>
+<li>Find the standard (non-membership) treatment and select it
+<ul>
+<li>Find the standard treatment commission amount (default price * commission amount)</li>
+<li>For example, if treatment is normally $250 @ 10% then $25</li>
+</ul>
+</li>
+<li>Navigate to the service that was created</li>
+<li>Select the service</li>
+</ol>
+<blockquote>
+<p>While in this menu, deselect (turn OFF) the "Bookable online" checkbox!</p>
+</blockquote>
+<ol start="12">
+<li>Divide the commission amount by the membership tier's price
+<ul>
+<li>$25 commission / 19900 membership = 0.125628...</li>
+</ul>
+</li>
+<li>Multiply the result by 100
+<ul>
+<li>0.125628... * 100 = 12.5628...</li>
+</ul>
+</li>
+<li>Round the product to 2 decimal places
+<ul>
+<li>12.5628... = 12.56 or 12.57</li>
+</ul>
+</li>
+<li>Enter the result as the commission amount</li>
+</ol>
+<h3 id="to-reserve-resources-while-booking"><a class="header" href="#to-reserve-resources-while-booking">To reserve resources while booking</a></h3>
+<ol start="16">
+<li>Manage menu -&gt; Services tab -&gt; Service item -&gt; Resources tab</li>
+<li>Turn on the switches which correspond to the treatment being provide
+<ul>
+<li>Example: laser hair removal
+<ul>
+<li>treatment room, multi-laser room</li>
+<li>laser device, gentlemax pro</li>
+</ul>
+</li>
+</ul>
+</li>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="how-to-merge-client-profiles"><a class="header" href="#how-to-merge-client-profiles">How to: Merge client profiles</a></h1>
 <ol>
