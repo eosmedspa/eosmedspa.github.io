@@ -1,7 +1,10 @@
 #!/bin/bash
 
-bash build.bash
+# Store the location of this script
+SCRIPT_LOCATION="$(dirname "$(realpath "$0")")"
 
-git add .
+bash "$SCRIPT_LOCATION/build.bash"
+
+cd "$SCRIPT_LOCATION" && git add .
 git commit -m "OK"
 git push
