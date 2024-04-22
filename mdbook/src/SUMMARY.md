@@ -9,4 +9,4 @@
 [How to: Merge client profiles](./how-to/merge-client-profiles.md)
 [How to: Print lab results](./how-to/print-lab-results.md)
 [How to: Sale without an appointment](./how-to/sale-without-an-appointment.md)
-[How to: Set up a membership](./how-to/membership-setup.md)
+[How to: Set up a membership](./how-to/set-up-new-membership.md)
