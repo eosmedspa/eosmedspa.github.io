@@ -3,7 +3,7 @@ authors = ["zachurdev"]
 language = "en"
 multilingual = false
 src = "src"
-title = "EOS Medical Spa Handbook"
+title = "EOS Medical Spa Employee Handbook"
 
 [output.html]
 default-theme = "rust"
