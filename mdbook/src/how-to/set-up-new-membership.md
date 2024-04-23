@@ -4,9 +4,16 @@
 
 ### Steps
 - Add a "Membership Initiation" SERVICE to their appointment
-- Have the client complete their forms
+- Have the client complete their forms (steps listed below)
+    - After adding the "Membership Initiation" service:
+        - Grab iPad (or have client use the front desk iPad)
+        - Open "Duo" app (if not already open)
+        - Tap "Check In ->"
+        - Enter client phone number (or email)
+        - Tap "Complete Forms"
+        - Hand iPad to client (or have them continue using the front desk iPad)
 - Add an "Initiation Fee" PRODUCT to their bill
-- Add the Membership (with appropriate tier) PRODUCT
+- Add the Membership (with appropriate tier) PRODUCT to their transaction
 - Ensure their primary service (i.e. PicoWay) is changed to the "for Tier #" option
 - Charge a partial amount equal to their membership tier (i.e. $199.00 for Tier III members)
 - Charge the remainder via card, cash, etc.
