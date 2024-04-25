@@ -4,6 +4,13 @@
 
 ### Steps
 - Add a "Membership Initiation" SERVICE to their appointment
+    - Go to "Checkout"
+    - In the top-right, select the uppermost 3-dot menu (in line with the client's name)
+    - Click "Edit appointment"
+    - On "Search for a service", click and then type "Memb"
+    - Select "Membership Initiation" from the dropdown
+    - In the bottom-right, deselect the checkbox for "Resend Confirmation"
+    - Click or tap "Update Appointment"
 - Have the client complete their forms (steps listed below)
     - After adding the "Membership Initiation" service:
         - Grab iPad (or have client use the front desk iPad)
