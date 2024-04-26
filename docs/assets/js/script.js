@@ -1,6 +1,9 @@
 function mainWebsiteRedirect() {
   window.location.href = 'https://www.eosmedspa.com/'
 }
+function bookingWebsiteRedirect() {
+  window.location.href = 'https://dashboard.boulevard.io/booking/businesses/635ebb9a-061f-45e4-b142-ee990ba9557a/widget#/visit-type'
+}
 function clientPortalRedirect() {
   window.location.href = './client/'
 }
