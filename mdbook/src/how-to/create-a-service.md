@@ -32,7 +32,7 @@
 17. Turn the switches to ON for all staff (by name) who should be assignable and allowed to carry out the procedure. This will also enable them to be shown as a practitioner option when a client is booking online
 
 ### Allocate resources (treatment rooms, devices)
-18. 14. Go to Manage tab
+18. Go to Manage tab
 19. Under Services, select the service to be edited
 20. In the "Resources" panel:
 21. Turn the switches to ON for all resources which need to be marked as "in-use" during the service

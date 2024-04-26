@@ -5,4 +5,4 @@
 3. From the dropdown menu, select "Help Chat"
 
 # Submit a support ticket to Zach
-4. Go to [https://portal.eosmedspa.com/] and click [submit a ticket](https://docs.google.com/forms/d/e/1FAIpQLSfb4Wg247hoJ5gKBanIQSb_7ByuMYZ4KoTX7xZl5mGEitHa1w/viewform)
+4. Go to [Employee Support Website](https://portal.eosmedspa.com/employee) and click [submit a ticket](https://docs.google.com/forms/d/e/1FAIpQLSfb4Wg247hoJ5gKBanIQSb_7ByuMYZ4KoTX7xZl5mGEitHa1w/viewform)
