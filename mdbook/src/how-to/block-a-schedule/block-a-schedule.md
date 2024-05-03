@@ -1,10 +1,8 @@
-# How to: Block a schedule
-
 1. From the [dashboard](https://dashboard.boulevard.io/home), navigate to the [Calendar](https://dashboard.boulevard.io/dashboard) tab
 
 ![Calendar Tab](./image1.png)
 
-2. Click on the desired time to start a block
+2. Click on the desired time to start a block to reveal the dialog box with "Block Time" option
     - You can also click-and-drag to cover a range all at once
 
 ![Dialog Box 1](./image2.png)

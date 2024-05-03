@@ -1,5 +1,3 @@
-# Consult the Boulevard chatbot and helpdesk team
-
 1. Navigate to any Boulevard dashboard screen, such as [home](https://dashboard.boulevard.io)
 2. Click on your profile icon in the top-right corner of the screen
 3. From the dropdown menu, select "Help Chat"

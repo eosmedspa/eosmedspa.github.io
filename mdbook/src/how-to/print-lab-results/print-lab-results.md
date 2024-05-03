@@ -1,5 +1,3 @@
-# How to: Print lab results
-
 1. Start from the [LabcorpLink login page](https://www.labcorplink.com/ui/#/login)
 2. Log in to the account
 3. View the [Dashboard](https://www.labcorplink.com/ui/#/dashboard)

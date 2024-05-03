@@ -1,4 +1,3 @@
-### To create the service
 1. Gear icon
 2. Services tab
 3. New service

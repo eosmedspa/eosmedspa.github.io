@@ -1,5 +1,3 @@
-# How to: Create a retail product
-
 1. From the [Front Desk](https://dashboard.boulevard.io/home) view
 2. Go to the [Business Manager](https://dashboard.boulevard.io/owner/businesss) page (gear icon)
 3. On the side bar menu, select [Products](https://dashboard.boulevard.io/owner/products)

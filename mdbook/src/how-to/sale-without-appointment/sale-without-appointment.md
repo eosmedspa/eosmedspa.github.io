@@ -1,5 +1,3 @@
-# How to: Merge client profiles
-
 1. From the [Front Desk](https://dashboard.boulevard.io/home) view
 2. Go to the [Sales](https://dashboard.boulevard.io/sales/orders) tab
 3. "New Sale" button

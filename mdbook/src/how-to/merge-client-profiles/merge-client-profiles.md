@@ -1,5 +1,3 @@
-# How to: Sale without an appointment
-
 1. From the [Front Desk](https://dashboard.boulevard.io/home) view
 2. Go to the [Clients](https://dashboard.boulevard.io/clients) tab
 3. ["Merge Clients"](https://dashboard.boulevard.io/client-merge) button

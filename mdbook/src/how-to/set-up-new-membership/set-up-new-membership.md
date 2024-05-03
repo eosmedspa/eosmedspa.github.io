@@ -1,5 +1,3 @@
-# Set up a new membership
-
 > This guide assumes that you have a client with a pre-standing appointment already scheduled and on the books, potentially even completed (i.e. you're signing them up for a membership to pay for the day's treatment). If you do not, then create one for the client you'll be setting up with membership. For services, add the treatment they have received or will be receiving that day.
 
 ### Steps

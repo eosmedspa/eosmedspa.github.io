@@ -1,5 +1,3 @@
-# How to: Create a service
-
 ### Create the service itself
 1. Gear icon
 2. Services tab

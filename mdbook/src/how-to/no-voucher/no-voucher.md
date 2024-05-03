@@ -1,5 +1,3 @@
-# How to check somebody out who has a paid-for package but no vouchers on file
-
 1. Navigate to client's appointment
 2. Go to the checkout panel
 3. Complete their "basket" (make sure all the products and services for the transaction are on the ticket)
