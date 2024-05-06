@@ -6,5 +6,5 @@ src = "src"
 title = "EOS Medical Spa Employee Handbook"
 
 [output.html]
-default-theme = "rust"
-preferred-dark-theme = "rust"
+default-theme = "light"
+preferred-dark-theme = "coal"

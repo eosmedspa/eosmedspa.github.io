@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="en" class="rust" dir="ltr">
+<html lang="en" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>How to: Create a service - EOS Medical Spa Employee Handbook</title>
+        <title>How to: Sale without an appointment - EOS Medical Spa Employee Handbook</title>
 
 
         <!-- Custom HTML head -->
@@ -36,7 +36,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "../../";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "rust" : "rust";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "coal" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -61,7 +61,7 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('rust')
+            html.classList.remove('light')
             html.classList.add(theme);
             var body = document.querySelector('body');
             body.classList.remove('no-js')
@@ -88,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../welcome.html">Welcome</a></li><li class="chapter-item expanded affix "><a href="../../how-to/ask-for-help/ask-for-help.html">How to: Ask for help</a></li><li class="chapter-item expanded affix "><a href="../../how-to/block-a-schedule/block-a-schedule.html">How to: Block a schedule</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-product/create-product.html">How to: Create a product</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-membership-service/create-membership-service.html">How to: Create a member service</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-service/create-service.html" class="active">How to: Create a service</a></li><li class="chapter-item expanded affix "><a href="../../how-to/merge-client-profiles/merge-client-profiles.html">How to: Merge client profiles</a></li><li class="chapter-item expanded affix "><a href="../../how-to/no-voucher/no-voucher.html">How to: Missing voucher payment</a></li><li class="chapter-item expanded affix "><a href="../../how-to/print-lab-results/print-lab-results.html">How to: Print lab results</a></li><li class="chapter-item expanded affix "><a href="../../how-to/sale-without-appointment/sale-without-appointment.html">How to: Sale without an appointment</a></li><li class="chapter-item expanded affix "><a href="../../how-to/set-up-new-membership/set-up-new-membership.html">How to: Set up a membership</a></li><li class="chapter-item expanded affix "><a href="../../question/business-venmo/index.html">Question: What is the business Venmo?</a></li><li class="chapter-item expanded affix "><a href="../../question/client-portal/index.html">Question: What is the client portal link?</a></li><li class="chapter-item expanded affix "><a href="../../question/gift-cards/index.html">Question: What is the gift cards link?</a></li><li class="chapter-item expanded affix "><a href="../../question/online-booking/index.html">Question: What is the online booking link?</a></li><li class="chapter-item expanded affix "><a href="../../resource/pricing-list/index.html">Resource: Pricing List</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../welcome.html">Welcome</a></li><li class="chapter-item expanded affix "><a href="../../how-to/ask-for-help/index.html">How to: Ask for help</a></li><li class="chapter-item expanded affix "><a href="../../how-to/block-a-schedule/index.html">How to: Block a schedule</a></li><li class="chapter-item expanded affix "><a href="../../how-to/check-account-credit/index.html">How to: Check for account credit</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-product/index.html">How to: Create a product</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-membership-service/index.html">How to: Create a member service</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-service/index.html">How to: Create a service</a></li><li class="chapter-item expanded affix "><a href="../../how-to/merge-client-profiles/index.html">How to: Merge client profiles</a></li><li class="chapter-item expanded affix "><a href="../../how-to/no-voucher/index.html">How to: Missing voucher payment</a></li><li class="chapter-item expanded affix "><a href="../../how-to/print-lab-results/index.html">How to: Print lab results</a></li><li class="chapter-item expanded affix "><a href="../../how-to/sale-without-appointment/index.html" class="active">How to: Sale without an appointment</a></li><li class="chapter-item expanded affix "><a href="../../how-to/set-up-new-membership/index.html">How to: Set up a membership</a></li><li class="chapter-item expanded affix "><a href="../../question/business-venmo/index.html">Question: What is the business Venmo?</a></li><li class="chapter-item expanded affix "><a href="../../question/client-portal/index.html">Question: What is the client portal link?</a></li><li class="chapter-item expanded affix "><a href="../../question/gift-cards/index.html">Question: What is the gift cards link?</a></li><li class="chapter-item expanded affix "><a href="../../question/online-booking/index.html">Question: What is the online booking link?</a></li><li class="chapter-item expanded affix "><a href="../../resource/pricing-list/index.html">Resource: Pricing List</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -173,79 +173,25 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h3 id="create-the-service-itself"><a class="header" href="#create-the-service-itself">Create the service itself</a></h3>
-<ol>
-<li>Gear icon</li>
-<li>Services tab</li>
-<li>"New Service" button</li>
-</ol>
-<blockquote>
-<p>If the service to be created is a new type which is not covered by an existing category, first select the "New Category" button and create the category first before proceeding with a service</p>
-</blockquote>
-<ol start="4">
-<li>Enter a service name</li>
-<li>Select a service category</li>
-<li>Click "Create Service"</li>
-<li>Required: Set a Default Price, Duration
-<ul>
-<li>Optional: Set Processing, Finishing, and Transition Times
-<ul>
-<li>Duration = Default (if a solid time block) OR part one of the appointment (such as time to apply numbing)</li>
-<li>Processing Time = Numbing time or equivalent</li>
-<li>Finishing Time = Second part of appointment, if split by processing time</li>
-<li>Transition time = Time that practitioner is busy afterward but client is free (such as cleaning of the room or spinning blood for labs)</li>
-</ul>
-</li>
-<li>Optional: Add a service product (e.g. Syringes of peptides, units of tox)
-<ul>
-<li>IF A SERVICE PRODUCT IS USED, IT NEEDS TO BE CREATED SEPARATELY AND THEN ASSIGNED</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Click/tap the "Save changes" button in the bottom-right of the menu</li>
-</ol>
-<h3 id="add-service-details-set-commission-rate-andor-make-bookable-online"><a class="header" href="#add-service-details-set-commission-rate-andor-make-bookable-online">Add service details (set commission rate and/or make bookable online)</a></h3>
-<ol start="9">
-<li>Go to Manage tab</li>
-<li>Under Services, select the service to be edited</li>
-<li>In the "Overview" panel (which pops up by default when a service is selected)</li>
-<li>Add a "Commission Override" with the desired rate as a percentage</li>
-<li>Use the "Bookable online" checkbox to enable/disable this functionality in the booking portal</li>
-</ol>
-<h3 id="make-staff-assignable"><a class="header" href="#make-staff-assignable">Make staff assignable</a></h3>
-<ol start="14">
-<li>Go to Manage tab</li>
-<li>Under Services, select the service to be edited</li>
-<li>In the "Staff" panel:</li>
-<li>Turn the switches to ON for all staff (by name) who should be assignable and allowed to carry out the procedure. This will also enable them to be shown as a practitioner option when a client is booking online</li>
-</ol>
-<h3 id="allocate-resources-treatment-rooms-devices"><a class="header" href="#allocate-resources-treatment-rooms-devices">Allocate resources (treatment rooms, devices)</a></h3>
-<ol start="18">
-<li>Go to Manage tab</li>
-<li>Under Services, select the service to be edited</li>
-<li>In the "Resources" panel:</li>
-<li>Turn the switches to ON for all resources which need to be marked as "in-use" during the service
-<ul>
-<li>Examples:
-<ul>
-<li>For a laser hair removal appointment, the multi-laser room and GentleMax Pro device</li>
-<li>For a body sculpting appointment, the body sculpting room and a truSculpt device</li>
-</ul>
-</li>
-</ul>
-</li>
+                        <ol>
+<li>From the <a href="https://dashboard.boulevard.io/home">Front Desk</a> view</li>
+<li>Go to the <a href="https://dashboard.boulevard.io/sales/orders">Sales</a> tab</li>
+<li>"New Sale" button</li>
+<li>"Search by Name, Phone Number, or Email" bar -&gt; Add client -&gt; Create new client if does not exist</li>
+<li>Add Gratuity, Product, Account Credit, Product Units, and/or Offer Code to transaction</li>
+<li>Select Payment Method (Card, Cash, Gift Card, Account Credit, Other)</li>
+<li>Finalize the transaction as usual</li>
 </ol>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../../how-to/create-membership-service/create-membership-service.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../../how-to/print-lab-results/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../../how-to/merge-client-profiles/merge-client-profiles.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../../how-to/set-up-new-membership/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -255,11 +201,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../../how-to/create-membership-service/create-membership-service.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../../how-to/print-lab-results/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../../how-to/merge-client-profiles/merge-client-profiles.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../../how-to/set-up-new-membership/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

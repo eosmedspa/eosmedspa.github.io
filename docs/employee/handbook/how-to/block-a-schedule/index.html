@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="en" class="rust" dir="ltr">
+<html lang="en" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>How to: Create a product - EOS Medical Spa Employee Handbook</title>
+        <title>How to: Block a schedule - EOS Medical Spa Employee Handbook</title>
 
 
         <!-- Custom HTML head -->
@@ -36,7 +36,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "../../";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "rust" : "rust";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "coal" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -61,7 +61,7 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('rust')
+            html.classList.remove('light')
             html.classList.add(theme);
             var body = document.querySelector('body');
             body.classList.remove('no-js')
@@ -88,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../welcome.html">Welcome</a></li><li class="chapter-item expanded affix "><a href="../../how-to/ask-for-help/ask-for-help.html">How to: Ask for help</a></li><li class="chapter-item expanded affix "><a href="../../how-to/block-a-schedule/block-a-schedule.html">How to: Block a schedule</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-product/create-product.html" class="active">How to: Create a product</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-membership-service/create-membership-service.html">How to: Create a member service</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-service/create-service.html">How to: Create a service</a></li><li class="chapter-item expanded affix "><a href="../../how-to/merge-client-profiles/merge-client-profiles.html">How to: Merge client profiles</a></li><li class="chapter-item expanded affix "><a href="../../how-to/no-voucher/no-voucher.html">How to: Missing voucher payment</a></li><li class="chapter-item expanded affix "><a href="../../how-to/print-lab-results/print-lab-results.html">How to: Print lab results</a></li><li class="chapter-item expanded affix "><a href="../../how-to/sale-without-appointment/sale-without-appointment.html">How to: Sale without an appointment</a></li><li class="chapter-item expanded affix "><a href="../../how-to/set-up-new-membership/set-up-new-membership.html">How to: Set up a membership</a></li><li class="chapter-item expanded affix "><a href="../../question/business-venmo/index.html">Question: What is the business Venmo?</a></li><li class="chapter-item expanded affix "><a href="../../question/client-portal/index.html">Question: What is the client portal link?</a></li><li class="chapter-item expanded affix "><a href="../../question/gift-cards/index.html">Question: What is the gift cards link?</a></li><li class="chapter-item expanded affix "><a href="../../question/online-booking/index.html">Question: What is the online booking link?</a></li><li class="chapter-item expanded affix "><a href="../../resource/pricing-list/index.html">Resource: Pricing List</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../welcome.html">Welcome</a></li><li class="chapter-item expanded affix "><a href="../../how-to/ask-for-help/index.html">How to: Ask for help</a></li><li class="chapter-item expanded affix "><a href="../../how-to/block-a-schedule/index.html" class="active">How to: Block a schedule</a></li><li class="chapter-item expanded affix "><a href="../../how-to/check-account-credit/index.html">How to: Check for account credit</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-product/index.html">How to: Create a product</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-membership-service/index.html">How to: Create a member service</a></li><li class="chapter-item expanded affix "><a href="../../how-to/create-service/index.html">How to: Create a service</a></li><li class="chapter-item expanded affix "><a href="../../how-to/merge-client-profiles/index.html">How to: Merge client profiles</a></li><li class="chapter-item expanded affix "><a href="../../how-to/no-voucher/index.html">How to: Missing voucher payment</a></li><li class="chapter-item expanded affix "><a href="../../how-to/print-lab-results/index.html">How to: Print lab results</a></li><li class="chapter-item expanded affix "><a href="../../how-to/sale-without-appointment/index.html">How to: Sale without an appointment</a></li><li class="chapter-item expanded affix "><a href="../../how-to/set-up-new-membership/index.html">How to: Set up a membership</a></li><li class="chapter-item expanded affix "><a href="../../question/business-venmo/index.html">Question: What is the business Venmo?</a></li><li class="chapter-item expanded affix "><a href="../../question/client-portal/index.html">Question: What is the client portal link?</a></li><li class="chapter-item expanded affix "><a href="../../question/gift-cards/index.html">Question: What is the gift cards link?</a></li><li class="chapter-item expanded affix "><a href="../../question/online-booking/index.html">Question: What is the online booking link?</a></li><li class="chapter-item expanded affix "><a href="../../resource/pricing-list/index.html">Resource: Pricing List</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -174,27 +174,45 @@
                 <div id="content" class="content">
                     <main>
                         <ol>
-<li>From the <a href="https://dashboard.boulevard.io/home">Front Desk</a> view</li>
-<li>Go to the <a href="https://dashboard.boulevard.io/owner/businesss">Business Manager</a> page (gear icon)</li>
-<li>On the side bar menu, select <a href="https://dashboard.boulevard.io/owner/products">Products</a></li>
-<li>Click on the "New Product" button</li>
-<li>Name the product as follows: {BRAND} - {ITEM} (Example: "SkinCeuticals - Cell Cycle Catalyst")</li>
-<li>For retail products, ensure the checkbox for "Charge tax on this item" is checked</li>
-<li>Add a "Product Price"</li>
-<li>(Optional) Select a supplier</li>
-<li>(Optional) Select a category</li>
-<li>(Optional) Enter a brand</li>
+<li>From the <a href="https://dashboard.boulevard.io/home">dashboard</a>, navigate to the <a href="https://dashboard.boulevard.io/dashboard">Calendar</a> tab</li>
 </ol>
+<p><img src="./image1.png" alt="Calendar Tab" /></p>
+<ol start="2">
+<li>Click on the desired time to start a block to reveal the dialog box with "Block Time" option
+<ul>
+<li>You can also click-and-drag to cover a range all at once</li>
+</ul>
+</li>
+</ol>
+<p><img src="./image2.png" alt="Dialog Box 1" /></p>
+<ol start="3">
+<li>Block time
+<ul>
+<li>Add a title</li>
+<li>Ensure the following:
+<ul>
+<li>Staff member is correct</li>
+<li>Duration of time</li>
+<li>Date and time</li>
+<li>Whether or not the event should repeat (for weekly blocks)</li>
+<li>Reason (personal block or block for business reasons)</li>
+</ul>
+</li>
+<li>Example: to block from 10am to 4pm, start a block at 10am and give a duration of 6 hours</li>
+</ul>
+</li>
+</ol>
+<p><img src="./image3.png" alt="Dialog Box 2" /></p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../../how-to/block-a-schedule/block-a-schedule.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../../how-to/ask-for-help/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../../how-to/create-membership-service/create-membership-service.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../../how-to/check-account-credit/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -204,11 +222,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../../how-to/block-a-schedule/block-a-schedule.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../../how-to/ask-for-help/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../../how-to/create-membership-service/create-membership-service.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../../how-to/check-account-credit/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
