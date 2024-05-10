@@ -12,5 +12,8 @@
 - Click on black "New Sale" button
 - Checkout panel will appear in the bottom-right corner of the browser (Microsoft Edge, Google Chrome, etc.)
 
-## Example View
-![Checkout](./image1.png)
+## Example View (Part 1 of 2)
+![Checkout Button](./image1.png)
+
+## Example View (Part 2 of 2)
+![Checkout Panel](./image2.png)
